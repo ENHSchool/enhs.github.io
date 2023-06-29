@@ -1,0 +1,937 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	height: 200px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+body {
+	animation: hotdog 1s;
+}
+
+@keyframes hotdog {
+	from{
+		opacity: 0;
+	}
+
+	to{
+		opacity: 1;
+	}
+}
+
+
+
+
+body#enhs {
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.schoolname {
+	text-align: center; 
+	color: white; 
+	background: rgb(158, 26, 35);
+	width: 460px; 
+	padding: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	border-radius: 15px;
+}
+
+    .pmenu {
+    	display: none;
+    	visibility: collapse;
+    }
+
+	.menu {
+		background: rgb(158, 26, 35);
+		text-align: center;
+		position: sticky;
+		top: 0px;
+	}
+
+	.menu ul {
+		display: inline-flex;
+		list-style: none;
+		color: white;
+	}
+
+	.menu ul li {
+		width: 190px;
+		margin: 0px;
+		padding: 15px;
+		font-size: 16px;
+	}
+
+	.menu ul li a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.active, .menu ul li:hover {
+		background: rgb(74, 6, 6);
+		border-radius: 3px;
+		transition: 0.5s;
+	}
+
+	.menu .fa-solid {
+		margin-right: 2px;
+	}
+
+	.bar {
+		display: none;
+	}
+
+	.menu ul li:hover .bar {
+		display: block;
+		position: absolute;
+		background: rgb(158, 26, 35);
+		margin-top: 15px;
+		margin-left: 0px;
+	}
+
+	.menu ul li:hover .bar ul {
+		display: block;
+		margin: 0px;
+	}
+
+	.menu ul li:hover .bar ul li:hover {
+		background: rgb(74, 6, 6);
+		border-radius: 3px;
+		transition: 0.5s;
+	}
+
+	.menu ul li:hover .bar ul li {
+		width: 140px;
+		padding: 10px;
+		background: transparent;
+		border-radius: 0;
+		text-align: center;
+	}
+
+	.klase {
+		display: none;
+	}
+
+	.menu ul li:hover .klase {
+		display: block;
+		position: absolute;
+		background: rgb(158, 26, 35);
+		margin-top: 15px;
+		margin-left: 0px;
+	}
+
+	.menu ul li:hover .klase ul {
+		display: block;
+		margin: 0px;
+	}
+
+	.menu ul li:hover .klase ul li:hover {
+		background: rgb(74, 6, 6);
+		border-radius: 3px;
+		transition: 0.5s;
+	}
+
+	.menu ul li:hover .klase ul li {
+		width: 140px;
+		padding: 10px;
+		background: transparent;
+		border-radius: 0;
+		text-align: center;
+	}
+
+.pnews {
+	visibility: collapse;
+	display: none;
+}
+
+.news {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+iframe {
+	border: solid rgb(158, 26, 35) 8px;
+	border-radius: 10px;
+}
+
+div.page iframe {
+	margin-left: 30px;
+    width: 515px;
+    height: 550px;
+}
+
+div.mapa iframe {
+	margin-right: 30px;
+	width: 700px;
+	height: 550px;
+}
+
+.page h2 {
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	background: rgb(158, 26, 35);
+	width: 380px;
+	margin-right: auto;
+	margin-left: 95px;
+	display: block;
+	text-align: center;
+}
+
+.mapa h2 {
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	background: rgb(158, 26, 35);
+	width: 380px;
+	margin-right: auto;
+	margin-left: 150px;
+	display: block;
+	text-align: center;
+}
+
+
+
+
+
+/* hati */
+
+
+
+
+body#mv {
+	background-image: url(backgroundwhite.jpg);
+	background-size: cover;
+}
+
+.missandvis h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 230px;
+	border-radius: 5px;
+	font-size: 50px;
+}
+
+.missandvis p  {
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	font-size: 25px;
+}
+
+.missandvis p.balyu {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	font-size: 35px;
+}
+
+.missandvis h2.ccc  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 500px;
+	border-radius: 5px;
+	font-size: 50px;
+}
+
+
+
+/* hati */
+
+
+
+
+body#history {
+	background-image: url(backgroundwhite.jpg);
+	background-size: cover;
+}
+
+.nakaraan h2 {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 600px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+.nakaraan p {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	width: 1100px;
+	border-radius: 5px;
+	font-size: 25px;
+	background: rgba(158, 26, 35, 0.3);
+	padding: 20px;
+	line-height: 40px;
+}
+
+
+/* hati */
+
+
+
+
+
+body#chart {
+	background-image: url(backgroundwhite.jpg);
+	background-size: cover;
+}
+
+.chart {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 1300px;
+	height: 950px;
+	border-radius: 20px;
+}
+
+.titolo {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 600px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+
+
+
+/* hati */
+
+
+
+
+div.laman p {
+	padding: 15px;
+	background: rgba(158, 26, 35, 0.3);
+}
+
+div.enrol {
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+div.enrol h2 {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 600px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+div.enrol p {
+	font-family: 'Kanit', sans-serif;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	width: 1100px;
+	border-radius: 5px;
+	font-size: 20px;
+	background: rgba(158, 26, 35, 0.3);
+	padding: px;
+	line-height: 40px;
+}
+
+
+/* hati */
+
+
+
+body#strand {
+	background-image: url(backgroundwhite.jpg);
+	background-size: cover;
+}
+
+	.menu2 {
+		background: rgb(158, 26, 35);
+		text-align: center;
+		position: sticky;
+		top: 0px;
+	}
+
+	.menu2cp {
+		display: none;
+		visibility: collapse;
+	}
+
+	.menu2 ul.bak {
+		float: left;
+		display: inline-flex;
+		list-style: none;
+		color: white;
+	}
+
+	.menu2 ul.atay {
+		float: right;
+		display: inline-flex;
+		list-style: none;
+		color: white;
+	}
+
+	.menu2 ul.atay li {
+		width: 110px;
+		height: 50px;
+		margin-top: -50px;
+	}
+
+	.menu2 ul.atay li.enroling {
+		width: 170px;
+		height: 50px;
+		margin-top: -50px;
+	}
+
+	.menu2 ul li {
+		width: 190px;
+		margin: 0px;
+		padding: 15px;
+		font-size: 16px;
+	}
+
+	
+
+	.menu2 ul li a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.active, .menu2 ul li:hover {
+		background: rgb(74, 6, 6);
+		border-radius: 3px;
+		transition: 0.5s;
+	}
+
+	.menu2 .fa-solid {
+		margin-right: 2px;
+	}
+
+	
+
+
+	/* hati */
+
+
+
+
+
+div.hahaha {
+	justify-content: center;
+	align-content: center;
+}
+
+div.hahaha h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 5px;
+	display: block;
+	text-align: left;
+	background: rgb(158, 26, 35);
+	width: 590px;
+	border-radius: 5px;
+	font-size: 35px;
+	padding: 10px;
+}
+
+div.hahaha p  {
+	text-indent: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 25px;
+}
+
+div.hahahaha {
+	justify-content: center;
+	align-content: center;
+}
+
+div.hahahaha h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 5px;
+	display: block;
+	text-align: left;
+	background: rgb(158, 26, 35);
+	width: 745px;
+	border-radius: 5px;
+	font-size: 35px;
+	padding: 10px;
+}
+
+div.hahahaha p  {
+	text-indent: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 25px;
+}
+
+div.hahaspj {
+	justify-content: center;
+	align-content: center;
+}
+
+div.hahaspj h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 5px;
+	display: block;
+	text-align: left;
+	background: rgb(158, 26, 35);
+	width: 635px;
+	border-radius: 5px;
+	font-size: 35px;
+	padding: 10px;
+}
+
+div.hahaspj p  {
+	text-indent: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 25px;
+}
+
+div.hahaste {
+	justify-content: center;
+	align-content: center;
+}
+
+div.hahaste h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 5px;
+	display: block;
+	text-align: left;
+	background: rgb(158, 26, 35);
+	width: 744px;
+	border-radius: 5px;
+	font-size: 35px;
+	padding: 10px;
+}
+
+div.hahaste p  {
+	text-indent: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 25px;
+}
+
+div.hahaste ul li  {
+	text-indent: 50px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 21px;
+	padding: 10px;
+	background: rgba(158, 26, 35, 0.3);
+}
+
+div.hahareg {
+	justify-content: center;
+	align-content: center;
+}
+
+div.hahareg h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 5px;
+	display: block;
+	text-align: left;
+	background: rgb(158, 26, 35);
+	width: 350px;
+	border-radius: 5px;
+	font-size: 35px;
+	padding: 10px;
+}
+
+div.hahareg p  {
+	text-indent: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 25px;
+}
+
+div.hahareg ul li  {
+	text-indent: 50px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 21px;
+	padding: 10px;
+	background: rgba(158, 26, 35, 0.3);
+}
+
+div h2.hati {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 5px;
+	display: block;
+	text-align: left;
+	background: rgb(158, 26, 35);
+	width: 1510px;
+	border-radius: 5px;
+	font-size: 35px;
+	padding: 10px;
+}
+
+
+/* hati */
+
+
+
+
+
+
+div h2.doku {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 220px;
+	border-radius: 5px;
+	font-size: 35px;
+	padding: 10px;
+}
+
+.pityurs {
+    display: block;
+    grid-gap: 5px;
+}
+
+.pityurs img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 420px;
+	height: 250px;
+}
+
+.una1 img {
+	margin-top: 0px;
+	margin-left: 60px;
+}
+
+.una2 img {
+	margin-top: -250px;
+}
+
+.una3 img {
+	margin-top: -250px;
+	margin-right: 60px;
+}
+
+.una4 img {
+	margin-top: 50px;
+	margin-left: 300px;
+}
+
+.una5 img {
+	margin-top: -250px;
+	margin-right: 300px;
+}
+
+
+
+/* hati */
+
+
+
+
+
+
+
+
+
+
+.content{
+    text-align: center;
+    color: #000;
+	
+  }
+  .content p {
+    font-size: 20px;
+    padding: 40px 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #000;
+    text-align: center;
+
+  }
+
+.tos{ 
+  text-align: left	;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #000;
+}
+.tos h3{
+	text-align: center;
+}
+.tos h3 p li{
+	text-align: left;
+}
+.tos li {
+	font-size: 20px;
+}
+.haha{
+  text-align: left;
+  margin-left: 100px;
+  margin-right: 100px;
+  color: #000;
+}
+.haha h3{
+	text-align: center;
+}
+.haha li {
+  font-size: 20px;
+  text-align: left;
+}
+body#ICT {
+	background-image: url(background.jpg);
+	background-size: cover;
+}
+body#ICT {
+	background-image: url(backgroundwhite.jpg);
+	background-size: cover;
+}
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 100px auto;
+    justify-content: center;
+    object-fit: contain;
+}
+.box{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+    transition: 1s;
+}
+
+.box img{
+    display: inline;
+    width: 250px;
+	aspect-ratio: 4/3;
+    border-radius: 5px;
+	object-fit: contain;
+	mix-blend-mode: color-burn;
+    
+}
+.box:hover{
+    transform:scale(1.3);
+    z-index: 2;
+}
+.text{
+    color: #fff;
+    position: absolute;
+    margin-left: 500px;
+    font-size: 35px;
+    padding: 0;
+    margin-top: 15em;
+}
+p{
+    font-size: 20px;
+}
+
+.con{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 100px auto;
+    justify-content: center;
+    object-fit: contain;
+}
+.boo{
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+    transition: 1s;
+}
+
+h2{
+	text-align: center;
+}
+
+.nc2na{
+	text-align: center;
+}
+.imm2{
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+.designsalahat{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 100px auto;
+    justify-content: center;
+    object-fit: contain;
+}
+.allani img{
+	display: inline;
+    width: 250px;
+	aspect-ratio: 4/3;
+    border-radius: 5px;
+	mix-blend-mode: color-burn;
+	object-fit: cover;
+	box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+}
+.allani{
+    width: 250px;
+    margin: 0 10px;
+    
+    transition: 1s;
+	border-radius: .25em;
+	box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+	margin: 2em auto;
+	opacity: 0;
+	transform: translateY(4em) rotateX(-10deg);
+	transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+				opacity .3s .25s ease-out;
+	max-width: 600px;
+	will-change: transform, opacity;
+}
+.allani.is-visible {
+	opacity: 1;
+	transform: scale(1.1);
+}
+.allani:hover{
+    transform:scale(1.3);
+    z-index: 2;
+}
+.hummsp1{
+	margin-left: 50px;
+	margin-right: 50px;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+/* hati */
+
+
+.cps {
+	display: none;
+	visibility: collapse;
+}
+
+footer .comps {
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	background: rgb(158, 26, 35);
+	padding: 10px;
+}
+
+footer .comps h4 a {
+	text-decoration: none;
+	color: white;
+}
+
+.paakaliwa {
+	text-align: left;
+	margin-top: -40px;
+	float: left;
+}
+
+.paakanan {
+	text-align: right;
+	margin-top: -40px;
+	float: right;
+}

@@ -1,0 +1,1353 @@
+
+/*for mobile devices with max 700pixel screen width*/
+
+@media only screen and (max-width: 700px) {
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	height: 150px;
+	width: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.schoolname {
+	font-size: 17px;
+	text-align: center;
+	color: white;
+	background: rgb(158, 26, 35);
+	width: 90%; /* Adjusted for mobile */
+	max-width: 460px;
+	padding: 10px;
+	margin: 0 auto;
+	border-radius: 15px;
+}
+
+.menu {
+	display: none;
+	visibility: collapse;
+}
+
+
+
+.pmenu {
+	font-size: 20px;
+	padding: 10px;
+	background: rgb(158, 26, 35);
+	visibility: visible;
+	display: block;
+}
+
+.menu2 {
+	display: none;
+	visibility: collapse;
+}
+
+.menu2cp {
+	display: block;
+	background: rgb(158, 26, 35);
+	text-align: center;
+	position: relative;
+	top: 0px;
+	visibility: visible;
+}
+
+.menu2cp ul {
+	padding: 10px;
+	font-size: 17px;
+	display: inline-flex;
+	list-style-type: none;
+}
+
+.menu2cp i {
+	color: white;
+}
+
+.menu2cp ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.hays ul li a {
+	padding: 5px;
+}
+
+.pmenu i {
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+.pmenu ul li {
+	margin-left: 10px;
+	display: inline-flex;
+	color: white;
+}
+
+.pmenu ul li.ggg {
+	text-align: center;
+	margin-top: -25px;
+	margin-right: 10px;
+	float: right;
+}
+
+.pmenu button.gg{
+	font-size: 20px;
+	color: white;
+	background: none;
+	border: none;
+}
+
+.pmenu ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+
+.DRC {
+	text-align: right;
+  font-size: 15px;
+  display: none;
+  position: absolute;
+  right: 0px;
+  background-color: rgb(158, 26, 35);
+  width: 200px;
+  overflow: auto;
+}
+
+.DRC i {
+  margin-left: 5px;
+}
+
+.DRC a {	
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.show {display: block;}
+		
+	
+.comps {
+	display: none;
+	visibility: collapse;
+}
+
+.cps {
+	display: block;
+	visibility: visible;
+}
+
+footer .cps {
+	bottom: 0px;
+	font-size: 15px;
+	text-align: center;
+	color: white;
+	background: rgb(158, 26, 35);
+	padding: 10px;
+}
+
+footer .cps h4 a {
+	text-decoration: none;
+	color: white;
+}
+
+.active {
+	color: black;
+}
+
+.news {
+	visibility: collapse;
+	display: none;
+}
+
+.pnews {
+	visibility: visible;
+	display: block;
+	align-content: center;
+	justify-content: center;
+}
+
+
+.ppage iframe {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 350px;
+	height: 600px;
+}
+
+
+.pmapa iframe {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 350px;
+	height: 300px;
+}
+
+.ppage h2 {
+	margin-bottom: -5px;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	background: rgb(158, 26, 35);
+	width: 320px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+}
+
+.pmapa h2 {
+	margin-bottom: -5px;
+	margin-top: 70px;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	color: white;
+	background: rgb(158, 26, 35);
+	width: 230px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+}
+
+
+/*nilagay ni ahron pogi */
+
+
+.content p {
+	font-size: 10px;
+	padding: 40px 20px;
+	color: #000;
+	text-align:center;
+	margin: 0;
+  }
+ p{
+	font-size: 10px;
+ }
+ .tos{ 
+	text-align: left	;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #000;
+  }
+  .tos h3{
+	  text-align: center;
+  }
+  .tos h3 p li{
+	  text-align: left;
+  }
+  .haha{
+	text-align: left;
+	margin-left: 0px;
+	margin-right: 0px;
+	color: #000;
+  }
+  .haha p{
+	margin-left: 10px;
+	margin-right:10px ;
+	text-align: center;
+  }
+  .haha li {
+	margin-left: 10px;
+	margin-right:10px ;
+  }
+  .haha h3{
+	  text-align: center;
+  }
+  .haha li {
+	font-size: 20px;
+	text-align: left;
+  }
+  .haha li{
+	font-size: 10px;
+  }
+  .tos li{
+	font-size: 10px;
+  }
+  .hummsp1{
+	font-size: 8px;
+	display: contents;
+	margin-right: 10px;
+	margin-left: 10px;
+  }
+  .hummsp1 p{
+	font-size: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+  }
+  .designsalahat{
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	margin: 100px auto;
+	justify-content: center;
+	object-fit: contain;
+  }
+  div.gigi h2{
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 15px;
+	text-align: center;
+	text-justify: inter-word;
+	
+  }
+  
+div.hahaha p{
+	text-align: left;
+	font-size: 15px;
+	word-spacing: 0.5;
+	
+}
+div.hahaha h2 {
+    font-family: 'Prompt', sans-serif;
+    color: white;
+    margin-left: 15px;
+    display: block;
+    text-align: center;
+    background: rgb(158, 26, 35);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+	width: 350px;
+}
+
+/*hati sa mv*/
+
+.missandvis h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: justify;
+	background: rgb(158, 26, 35);
+	width: 200px;
+	border-radius: 5px;
+	font-size: 30px;
+}
+
+.missandvis p  {
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	width: 300px;
+	
+	display: block;
+	text-align:justify;
+	line-height: 35px;
+	font-size: 20px;
+}
+
+.missandvis p.balyu {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	width: 300px;
+	
+	display: block;
+	text-align: center;
+	line-height: 35px;
+	font-size: 20px;
+}
+.missandvis h2{
+	text-align:center;
+
+}
+.missandvis h2.ccc  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 250px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+/* hati sa history */
+
+.nakaraan h2 {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 300px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+.nakaraan p {
+	font-family: 'Montserrat', sans-serif;
+	color: black;
+	display: block;
+	text-align: center;
+	width:360px;
+	border-radius: 5px;
+	font-size: 13px;
+	background: rgba(158, 26, 35, 0.3);
+	padding: 20px;
+	line-height: 40px;
+}
+/* hati */
+.chart {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 350px;
+	height: 250px;
+}
+
+.titolo {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 300px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+/* hati */
+div.hahahaha {
+	justify-content: center;
+	align-content: center;
+}
+
+div.hahahaha h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 40px;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 300px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+div.hahahaha p  {
+	text-indent: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 15px;
+}
+
+/* hati */
+div.hahaspj {
+	justify-content: center;
+	align-content: center;
+}
+
+div.hahaspj h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 50px;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 305px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+div.hahaspj p  {
+	text-indent: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 20px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 15px;
+}
+.pityurs {
+    flex-direction: column;
+    grid-gap: 5px;
+}
+
+.pityurs img {
+	margin-left: 100px;
+	margin-right: 100px;
+	display: block;
+	width: 380px;
+	height: 200px;
+	object-fit: cover;
+
+}
+.una1 img {
+	margin-top: -50px;
+	margin-left: 10px;
+	
+}
+
+.una2 img {
+	margin-top: 40px;
+	margin-left: 10px;
+}
+
+.una3 img {
+	margin-top: 50px;
+	margin-left: 10px;
+}
+
+.una4 img {
+	margin-top: 60px;
+	margin-left: 10px;
+}
+
+.una5 img {
+	display: none;
+}
+
+/* hati */
+div.hahaste {
+	justify-content: center;
+	align-content: center;
+}
+
+div.hahaste h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 40px;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 330px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+div.hahaste p  {
+	text-indent: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 15px;
+}
+
+div.hahaste ul li  {
+	text-indent: 50px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 15px;
+	padding: 10px;
+	background: rgba(158, 26, 35, 0.3);
+}
+
+/* hati */
+
+div.hahareg {
+	justify-content: center;
+	align-content: center;
+}
+
+div.hahareg h2  {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-left: 50px;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 300px;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 10px;
+}
+
+div.hahareg p  {
+	text-indent: 30px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 15px;
+}
+div.hahareg ul li  {
+	text-indent: 50px;
+	font-family: 'PT Sans', sans-serif;
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	display: block;
+	text-align: left;
+	line-height: 35px;
+	font-size: 15px;
+	padding: 10px;
+	background: rgba(158, 26, 35, 0.3);
+}
+/* hati */
+div.enrol {
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+div.enrol h2 {
+	font-family: 'Prompt', sans-serif;
+	color: white;
+	margin-top: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	background: rgb(158, 26, 35);
+	width: 350px;
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+div.enrol p {
+	font-family: 'Kanit', sans-serif;
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+	width: 350px;
+	border-radius: 5px;
+	font-size: 15px;
+	background: rgba(158, 26, 35, 0.3);
+	padding: 10px;
+	line-height: 40px;
+}
+div.enrol img{
+	align-items: center;
+	flex-direction: column;
+	display: block;
+	margin-left: 120px;
+}
+}
+
+/* for tablets and ipads resolution reponsive*/
+
+@media only screen and (max-width: 1024px) and (min-width: 701px) {
+
+
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	
+	.logo {
+		height: 250px;
+		width: 250px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+	
+	.schoolname {
+		font-size: 30px;
+		text-align: center;
+		color: white;
+		background: rgb(158, 26, 35);
+		width: 600px;
+		padding: 10px;
+		margin: 0 auto;
+		border-radius: 15px;
+	}
+	
+	.menu {
+		display: none;
+		visibility: collapse;
+	}
+	
+	
+	
+	.pmenu {
+		font-size: 20px;
+		padding: 10px;
+		background: rgb(158, 26, 35);
+		visibility: visible;
+		display: block;
+	}
+	
+	.menu2 {
+		display: none;
+		visibility: collapse;
+	}
+	
+	.menu2cp {
+		display: block;
+		background: rgb(158, 26, 35);
+		text-align: center;
+		position: relative;
+		top: 0px;
+		visibility: visible;
+	}
+	
+	.menu2cp ul {
+		padding: 10px;
+		font-size: 17px;
+		display: inline-flex;
+		list-style-type: none;
+	}
+	
+	.menu2cp i {
+		color: white;
+		font-size: 30px;
+	}
+	
+	.menu2cp ul li a {
+		text-decoration: none;
+		color: white;
+		font-size: 30px;
+	}
+	
+	.hays ul li a {
+		padding: 5px;
+	}
+	
+	.pmenu i {
+		margin-right: 5px;
+		font-size: 30px;
+	}
+	
+	.pmenu ul li {
+		margin-left: 10px;
+		display: inline-flex;
+		color: white;
+	}
+	
+	.pmenu ul li.ggg {
+		text-align: center;
+		margin-top: -25px;
+		margin-right: 10px;
+		float: right;
+	}
+	
+	.pmenu button.gg{
+		font-size: 30px;
+		color: white;
+		background: none;
+		border: none;
+	}
+	
+	.pmenu ul li a {
+		color: white;
+		text-decoration: none;
+		font-size: 30px;
+	}
+	
+	
+	.DRC {
+		text-align: right;
+	  font-size: 15px;
+	  display: none;
+	  position: absolute;
+	  right: 0px;
+	  background-color: rgb(158, 26, 35);
+	  width: 300px;
+	  overflow: auto;
+	}
+	
+	.DRC i {
+	  margin-left: 5px;
+	}
+	
+	.DRC a {	
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	}
+	
+	.show {display: block;}
+			
+		
+	.comps {
+		display: none;
+		visibility: collapse;
+	}
+	
+	.cps {
+		display: block;
+		visibility: visible;
+	}
+	
+	footer .cps {
+		bottom: 0px;
+		font-size: 15px;
+		text-align: center;
+		color: white;
+		background: rgb(158, 26, 35);
+		padding: 10px;
+	}
+	
+	footer .cps h4 a {
+		text-decoration: none;
+		color: white;
+	}
+	
+	.active {
+		color: black;
+	}
+	
+	.news {
+		visibility: collapse;
+		display: none;
+	}
+	
+	.pnews {
+		visibility: visible;
+		display: block;
+		align-content: center;
+		justify-content: center;
+	}
+	
+	
+	.ppage iframe {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 360px;
+		height: 600px;
+	}
+	
+	
+	.pmapa iframe {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 400px;
+		height: 500px;
+	}
+	
+	.ppage h2 {
+		margin-bottom: -5px;
+		font-size: 20px;
+		font-family: 'PT Sans', sans-serif;
+		color: white;
+		background: rgb(158, 26, 35);
+		width: 320px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		text-align: center;
+	}
+	
+	.pmapa h2 {
+		margin-bottom: -5px;
+		margin-top: 70px;
+		font-size: 20px;
+		font-family: 'PT Sans', sans-serif;
+		color: white;
+		background: rgb(158, 26, 35);
+		width: 230px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		text-align: center;
+	}
+	
+	
+	/*nilagay ni ahron pogi */
+	
+	
+	.content p {
+		font-size: 20px;
+		padding: 40px 20px;
+		color: #000;
+		text-align:center;
+		margin: 0;
+	  }
+	  .content h3 {
+		font-size: 30px;
+		padding: 40px 20px;
+		color: #000;
+		text-align:center;
+		margin: 0;
+	  }
+	 p{
+		font-size: 20px;
+	 }
+	 .tos{ 
+		text-align: left	;
+		margin-left: 20px;
+		margin-right: 20px;
+		color: #000;
+		font-size: 20px;
+	  }
+	  .tos h3{
+		  text-align: center;
+		  font-size: 30px;
+	  }
+	  .tos h3 p li{
+		  text-align: left;
+	  }
+	  .haha{
+		text-align: left;
+		margin-left: 0px;
+		margin-right: 0px;
+		color: #000;
+	  }
+	  .haha p{
+		margin-left: 10px;
+		margin-right:10px ;
+		text-align: left;
+	  }
+	  .haha li {
+		margin-left: 10px;
+		margin-right:10px ;
+	  }
+	  .haha h3{
+		  text-align: center;
+		  font-size: 30px;
+	  }
+	  
+	  .haha li{
+		text-align: left;
+		font-size: 20px;
+	  }
+	  .tos li{
+		font-size: 20px;
+	  }
+	  .hummsp1{
+		font-size: 8px;
+		display: contents;
+		margin-right: 10px;
+		margin-left: 10px;
+	  }
+	  .hummsp1 h2{
+		font-size: 30px;
+		text-align: center;
+	  }
+	  .designsalahat{
+		display: flex;
+		flex-direction: column;
+		padding: 30px;
+		margin: 100px auto;
+		justify-content: center;
+		object-fit: contain;
+		margin-right: 100px;
+	  }
+	  div.gigi h2{
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 15px;
+		text-align: center;
+		text-justify: inter-word;
+		
+	  }
+	  
+	div.hahaha p{
+		text-align: left;
+		font-size: 20px;
+		word-spacing: 0.5;
+		
+	}
+	div.hahaha h2 {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		margin-left: 15px;
+		display: block;
+		text-align: center;
+		background: rgb(158, 26, 35);
+		border-radius: 5px;
+		font-size: 30px;
+		padding: 10px;
+		width: 600px;
+	}
+	
+	/*hati sa mv*/
+	
+	.missandvis h2  {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		text-align: justify;
+		background: rgb(158, 26, 35);
+		width: 500px;
+		border-radius: 5px;
+		font-size: 40px;
+	}
+	
+	.missandvis p  {
+		font-family: 'PT Sans', sans-serif;
+		color: black;
+		width: 650px;
+		
+		display: block;
+		text-align:justify;
+		line-height: 35px;
+		font-size: 25px;
+	}
+	
+	.missandvis p.balyu {
+		font-family: 'Montserrat', sans-serif;
+		color: black;
+		width: 300px;
+		
+		display: block;
+		text-align: center;
+		line-height: 35px;
+		font-size: 30px;
+		
+	}
+	.missandvis h2{
+		text-align:center;
+	
+	}
+	.missandvis h2.ccc  {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		
+		text-align: center;
+		background: rgb(158, 26, 35);
+		width: 500px;
+		border-radius: 5px;
+		font-size: 40px;
+	}
+	
+	/* hati sa history */
+	
+	.nakaraan h2 {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		display: block;
+		text-align: center;
+		background: rgb(158, 26, 35);
+		width: 700px;
+		border-radius: 5px;
+		font-size:30px;
+	}
+	
+	.nakaraan p {
+		font-family: 'Montserrat', sans-serif;
+		color: black;
+		display: block;
+		text-align: center;
+		width:650px;
+		border-radius: 5px;
+		font-size: 20px;
+		background: rgba(158, 26, 35, 0.3);
+		padding: 20px;
+		line-height: 40px;
+	}
+	/* hati */
+	.chart {
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		width: 800px;
+		height: 600px;
+	}
+	
+	.titolo {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		margin-top: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		text-align: center;
+		background: rgb(158, 26, 35);
+		width: 500px;
+		border-radius: 5px;
+		font-size: 30px;
+	}
+	
+	/* hati */
+	div.hahahaha {
+		justify-content: center;
+		align-content: center;
+	}
+	
+	div.hahahaha h2  {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		margin-left: 40px;
+		display: block;
+		text-align: center;
+		background: rgb(158, 26, 35);
+		width: 500px;
+		border-radius: 5px;
+		font-size: 30px;
+		padding: 10px;
+	}
+	
+	div.hahahaha p  {
+		text-indent: 30px;
+		font-family: 'PT Sans', sans-serif;
+		color: black;
+		display: block;
+		text-align: left;
+		line-height: 35px;
+		font-size: 27px;
+	}
+	
+	/* hati */
+	div.hahaspj {
+		justify-content: center;
+		align-content: center;
+	}
+	
+	div.hahaspj h2  {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		margin-left: 50px;
+		display: block;
+		text-align: center;
+		background: rgb(158, 26, 35);
+		width: 570px;
+		border-radius: 5px;
+		font-size: 30px;
+		padding: 10px;
+	}
+	
+	div.hahaspj p  {
+		text-indent: 30px;
+		font-family: 'PT Sans', sans-serif;
+		color: black;
+		margin-left: 20px;
+		margin-right: 30px;
+		display: block;
+		text-align: left;
+		line-height: 35px;
+		font-size: 20px;
+	}
+	.pityurs {
+		flex-direction: column;
+		grid-gap: 5px;
+	}
+	
+	.pityurs img {
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		width: 500px;
+		height: 300px;
+		object-fit: cover;
+	
+	}
+	.una1 img {
+		margin-top: -50px;
+		margin-left: 150px;
+		
+	}
+	
+	.una2 img {
+		margin-top: 40px;
+		margin-left: 150px;
+	}
+	
+	.una3 img {
+		margin-top: 50px;
+		margin-left: 150px;
+	}
+	
+	.una4 img {
+		margin-top: 60px;
+		margin-left: 150px;
+	}
+	
+	.una5 img {
+		display: none;
+	}
+	
+	/* hati */
+	div.hahaste {
+		justify-content: center;
+		align-content: center;
+	}
+	
+	div.hahaste h2  {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		margin-left: 40px;
+		display: block;
+		text-align: center;
+		background: rgb(158, 26, 35);
+		width: 700px;
+		border-radius: 5px;
+		font-size: 30px;
+		padding: 10px;
+	}
+	
+	div.hahaste p  {
+		text-indent: 30px;
+		font-family: 'PT Sans', sans-serif;
+		color: black;
+		margin-left: 30px;
+		margin-right: 30px;
+		display: block;
+		text-align: left;
+		line-height: 35px;
+		font-size: 20px;
+	}
+	
+	div.hahaste ul li  {
+		text-indent: 50px;
+		font-family: 'PT Sans', sans-serif;
+		color: black;
+		margin-left: 30px;
+		margin-right: 30px;
+		display: block;
+		text-align: left;
+		line-height: 35px;
+		font-size: 20px;
+		padding: 10px;
+		background: rgba(158, 26, 35, 0.3);
+	}
+	
+	/* hati */
+	
+	div.hahareg {
+		justify-content: center;
+		align-content: center;
+	}
+	
+	div.hahareg h2  {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		margin-left: 50px;
+		display: block;
+		text-align: center;
+		background: rgb(158, 26, 35);
+		width: 450px;
+		border-radius: 5px;
+		font-size: 30px;
+		padding: 10px;
+	}
+	
+	div.hahareg p  {
+		text-indent: 30px;
+		font-family: 'PT Sans', sans-serif;
+		color: black;
+		margin-left: 30px;
+		margin-right: 30px;
+		display: block;
+		text-align: left;
+		line-height: 35px;
+		font-size: 20px;
+	}
+	div.hahareg ul li  {
+		text-indent: 50px;
+		font-family: 'PT Sans', sans-serif;
+		color: black;
+		margin-left: 30px;
+		margin-right: 30px;
+		display: block;
+		text-align: left;
+		line-height: 35px;
+		font-size: 20px;
+		padding: 10px;
+		background: rgba(158, 26, 35, 0.3);
+	}
+	/* hati */
+	div.enrol {
+		justify-content: center;
+		align-content: center;
+		text-align: center;
+	}
+	h2{
+		font-size: 30px;
+	}
+	
+	div.enrol h2 {
+		font-family: 'Prompt', sans-serif;
+		color: white;
+		margin-top: 15px;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		text-align: center;
+		background: rgb(158, 26, 35);
+		width: 700px;
+		border-radius: 5px;
+		font-size: 30px;
+	}
+	
+	div.enrol p {
+		font-family: 'Kanit', sans-serif;
+		color: black;
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		text-align: center;
+		width: 550px;
+		border-radius: 5px;
+		font-size: 25px;
+		background: rgba(158, 26, 35, 0.3);
+		padding: 10px;
+		line-height: 40px;
+	}
+	div.enrol img{
+		
+		flex-direction: column;
+		display: block;
+		width: 420px;
+		height: 650px;
+		align-items: center;
+		margin-left: 200px;
+	}
+	.allani img{
+		display: inline;
+		width: 400px;
+		aspect-ratio: 4/3;
+		border-radius: 5px;
+		mix-blend-mode: color-burn;
+		object-fit: cover;
+		box-shadow: 0 0 20px rgba(255, 0, 0, 0.6);
+		
+	}
+	.allani{
+		width: 250px;
+		margin: 0 10px;
+		
+		transition: 1s;
+		border-radius: .25em;
+		box-shadow: 1em 1em 2em .25em rgba(0,0,0,.2);
+		margin: 2em auto;
+		opacity: 0;
+		transform: translateY(4em) rotateX(-10deg);
+		transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+					opacity .3s .25s ease-out;
+		max-width: 600px;
+		will-change: transform, opacity;
+	}
+	.allani.is-visible {
+		opacity: 1;
+		transform: scale(1.1);
+	}
+	.allani:hover{
+		transform:scale(1.3);
+		z-index: 2;
+	}
+}
